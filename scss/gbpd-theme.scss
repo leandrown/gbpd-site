@@ -1,0 +1,10 @@
+// sass --watch scss/:css/ --style compressed
+
+// Import custom variables (overrides Bootstrap default variables)
+@import "./variables";
+
+// Import custom styles
+@import "./navbar";
+@import "./global";
+@import "./form";
+@import "./footer";

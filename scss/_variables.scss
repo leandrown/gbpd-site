@@ -1,0 +1,27 @@
+// Variables
+
+// Color overrides
+
+// Set a custom color
+$title: #383735 !default;
+$subtitle: #8c919b !default;
+$menu-background: #336995 !default;
+$menu-item-base:#2a2a2a !default;
+$menu-item-focus: #21445a !default;
+$focus: $menu-item-focus !default;
+$box-title: $menu-item-focus !default;
+$box-content: #606060 !default;
+$box-border-bg: #008388 !default;
+$box-border: #076483 !default;
+$primary: #0c0c0c !default;
+$secondary: #dedede !default;
+$footer-background: $title !default;
+
+// Font overrides
+$font-family-base: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-base-size: 16px !default;
+
+$font-family-menu: $font-family-base !default;
+
+// Custom variables
+$navbar-mob-height: 72px !default;
