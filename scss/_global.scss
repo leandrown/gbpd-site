@@ -1,5 +1,11 @@
 // General
-
+.banner {
+   margin-top: 8em;
+   background: #aaa url('../img/banner-gbpd-2021.jpeg') center center no-repeat;
+   background-size: contain;
+   width: 100%;
+   height: 400px;
+}
 
 // Responsive Styles
 @media (max-width: 1200px) {}

@@ -2,4 +2,56 @@ footer {
    background: $menu-item-focus;
    width: 100%;
    min-height: 300px;
+   .footer-logo {
+      background: transparent url('../img/gbpd-logo.png') center center no-repeat;
+      background-size: contain;
+      width: 210px;
+      height: 84px;
+      top: 2em;
+      left: 2em;
+      position: absolute;
+   }
+   address {
+      top: 2.5em;
+      position: absolute;
+      color: #ffffff;
+      .social-media-links {
+         font-size: 2em;
+         letter-spacing: 0.1em;
+      }
+      h6 { text-transform: uppercase; }
+      ul {
+         list-style: none;
+         padding: 1em 0;
+         li {
+            font-size: 14px;
+         }
+      }
+   }
+   address:last-child {
+      text-align: center;
+   }
+}
+
+// Responsive Styles
+@media (max-width: 1200px) {}
+@media (max-width: 992px) {}
+@media (max-width: 768px) {}
+@media (max-width: 576px) {
+   footer {
+      padding: 3em 0;
+      .footer-logo {
+         top: 0;
+         left: 0;
+         position: relative;
+         margin: auto;
+      }
+      address {
+         top: 3em;
+         text-align: center;
+         ul {
+            width: 100%;
+         }
+      }
+   }
 }

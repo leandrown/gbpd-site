@@ -1,1 +1,106 @@
-#loginNav{background:#21445a;font-size:14px;color:#fff}#mainNav{top:2.2em;background:#336995}#mainNav .main-logo{width:234px;height:108px}@media(max-width: 576px){#mainNav{top:2.2em}}footer{background:#21445a;width:100%;min-height:300px}/*# sourceMappingURL=gbpd-theme.css.map */
+#loginNav {
+  background: #21445a;
+  z-index: 2000;
+}
+#loginNav .main-logo {
+  background: #21445a url("../img/gbpd-logo.png") center center no-repeat;
+  background-size: contain;
+  width: 210px;
+  height: 84px;
+  top: 1.1em;
+  left: 4.5em;
+  position: absolute;
+}
+#loginNav .nav-link {
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  color: #fff;
+}
+#loginNav .nav-link:hover {
+  color: aquamarine;
+}
+
+#mainNav {
+  top: 2.2em;
+  background: #336995;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  box-shadow: 0 0.6rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 576px) {
+  #loginNav .navbar-brand {
+    display: none;
+  }
+  #loginNav .nav-link {
+    padding: 0.5rem;
+  }
+
+  #mainNav {
+    top: 2.2em;
+  }
+}
+.banner {
+  margin-top: 8em;
+  background: #aaa url("../img/banner-gbpd-2021.jpeg") center center no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 400px;
+}
+
+footer {
+  background: #21445a;
+  width: 100%;
+  min-height: 300px;
+}
+footer .footer-logo {
+  background: transparent url("../img/gbpd-logo.png") center center no-repeat;
+  background-size: contain;
+  width: 210px;
+  height: 84px;
+  top: 2em;
+  left: 2em;
+  position: absolute;
+}
+footer address {
+  top: 2.5em;
+  position: absolute;
+  color: #ffffff;
+}
+footer address .social-media-links {
+  font-size: 2em;
+  letter-spacing: 0.1em;
+}
+footer address h6 {
+  text-transform: uppercase;
+}
+footer address ul {
+  list-style: none;
+  padding: 1em 0;
+}
+footer address ul li {
+  font-size: 14px;
+}
+footer address:last-child {
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  footer {
+    padding: 3em 0;
+  }
+  footer .footer-logo {
+    top: 0;
+    left: 0;
+    position: relative;
+    margin: auto;
+  }
+  footer address {
+    top: 3em;
+    text-align: center;
+  }
+  footer address ul {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=gbpd-theme.css.map */

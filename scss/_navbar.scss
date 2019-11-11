@@ -1,16 +1,30 @@
 // General
 #loginNav {
    background: $menu-item-focus;
-   font-size: 14px;
-   color: #fff;
+   z-index: 2000;
+   .main-logo {
+      background: $menu-item-focus url('../img/gbpd-logo.png') center center no-repeat;
+      background-size: contain;
+      width: 210px;
+      height: 84px;
+      top: 1.1em;
+      left: 4.5em;
+      position: absolute;
+   }
+   .nav-link {
+      font-family: $font-family-base;
+      font-size: 14px;
+      color: #fff;
+   }
+   .nav-link:hover {
+      color: aquamarine;
+   }
 }
 #mainNav {
    top: 2.2em;
    background: $menu-background;
-   .main-logo {
-      width: 234px;
-      height: 108px;
-   }
+   font-family: $font-family-base;
+   box-shadow: 0 0.6rem 1rem rgba(0,0,0,.5);
 }
 
 // Responsive Styles
@@ -18,6 +32,10 @@
 @media (max-width: 992px) {}
 @media (max-width: 768px) {}
 @media (max-width: 576px) {
+   #loginNav {
+      .navbar-brand { display: none; }
+      .nav-link { padding: 0.5rem; }
+   }
    #mainNav {
       top: 2.2em;
    }
