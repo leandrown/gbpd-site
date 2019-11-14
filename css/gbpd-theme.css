@@ -140,8 +140,8 @@ footer address:last-child {
   padding: 0;
   color: #fff;
 }
-.grid figcaption span:before {
-  content: "by ";
+.grid figcaption span {
+  font-size: 12px;
 }
 .grid figcaption a {
   text-align: center;
@@ -155,6 +155,7 @@ footer address:last-child {
 .caption-hover figure img {
   z-index: 10;
   transition: transform 0.4s;
+  border: #ccc 1px solid;
 }
 .caption-hover figcaption {
   height: 90px;
@@ -165,11 +166,14 @@ footer address:last-child {
 .caption-hover figcaption a {
   position: absolute;
   right: 20px;
+  left: 20px;
   top: 30px;
 }
 
 .no-touch .caption-hover figure:hover img,
 .caption-hover figure.cs-hover img {
+  border: #999 1px solid;
+  border-radius: 0;
   transform: translateY(-90px);
 }
 

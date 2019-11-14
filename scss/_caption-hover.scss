@@ -35,8 +35,8 @@
          padding: 0;
          color: #fff;
       }
-      span:before {
-         content: 'by ';
+      span{
+         font-size: 12px;
       }
       a {
          text-align: center;
@@ -53,6 +53,7 @@
       img {
          z-index: 10;
          transition: transform 0.4s;
+         border: #ccc 1px solid;
       }
    }
    figcaption {
@@ -63,13 +64,16 @@
       a {
          position: absolute;
          right: 20px;
+         left: 20px;
          top: 30px;
       }
    }
 }
 .no-touch .caption-hover figure:hover img,
 .caption-hover figure.cs-hover img {
-	transform: translateY(-90px);
+   border: #999 1px solid;
+   border-radius: 0;
+   transform: translateY(-90px);
 }
 
 @media screen and (max-width: 31.5em) {
