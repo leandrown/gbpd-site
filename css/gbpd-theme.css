@@ -2,14 +2,26 @@
   background: #21445a;
   z-index: 2000;
 }
-#loginNav .main-logo {
-  background: #21445a url("../img/gbpd-logo.png") center center no-repeat;
-  background-size: contain;
-  width: 210px;
-  height: 84px;
-  top: 1.1em;
+#loginNav .logo-gbpd {
+  top: 2em;
   left: 4.5em;
+  display: flex;
   position: absolute;
+  width: 180px;
+}
+#loginNav .logo-gbpd .main-logo {
+  background: transparent url("../img/gbpd-logo-s.png") center center no-repeat;
+  background-size: contain;
+  width: 60px;
+  height: 60px;
+}
+#loginNav .logo-gbpd .text-logo {
+  width: 100px;
+  font-size: 14px;
+  color: #fff;
+  margin-left: 0.6em;
+  white-space: initial;
+  line-height: 1.1em;
 }
 #loginNav .nav-link {
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -26,6 +38,12 @@
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   box-shadow: 0 0.6rem 1rem rgba(0, 0, 0, 0.5);
 }
+#mainNav .nav-link {
+  color: #fff;
+}
+#mainNav .nav-link:hover {
+  color: aquamarine;
+}
 
 @media (max-width: 576px) {
   #loginNav .navbar-brand {
@@ -40,11 +58,19 @@
   }
 }
 .banner {
-  margin-top: 7em;
+  margin-top: 6.5em;
   background: #aaa url("../img/banner-gbpd-2021.jpeg") center center no-repeat;
   background-size: contain;
   width: 100%;
   height: 400px;
+}
+
+.row h1 {
+  margin-top: 1em;
+}
+
+.align-title {
+  padding: 0 2em;
 }
 
 footer {
@@ -52,23 +78,40 @@ footer {
   width: 100%;
   min-height: 300px;
 }
-footer .footer-logo {
-  background: transparent url("../img/gbpd-logo.png") center center no-repeat;
-  background-size: contain;
-  width: 210px;
-  height: 84px;
+footer .logo-gbpd {
   top: 2em;
-  left: 2em;
+  left: 1em;
+  display: flex;
   position: absolute;
+}
+footer .logo-gbpd .footer-logo {
+  background: transparent url("../img/gbpd-logo-s.png") center center no-repeat;
+  background-size: contain;
+  width: 80px;
+  height: 80px;
+}
+footer .logo-gbpd .text-logo {
+  width: 128px;
+  font-size: 18px;
+  color: #fff;
+  margin-left: 0.6em;
+  white-space: initial;
+  line-height: 1.2em;
 }
 footer address {
   top: 2.5em;
   position: absolute;
-  color: #ffffff;
+  color: #fff;
 }
 footer address .social-media-links {
   font-size: 2em;
   letter-spacing: 0.1em;
+}
+footer address .social-media-links a {
+  color: #fff;
+}
+footer address .social-media-links a:hover {
+  color: aquamarine;
 }
 footer address h6 {
   text-transform: uppercase;
@@ -132,7 +175,7 @@ footer address:last-child {
   top: 0;
   left: 0;
   padding: 20px;
-  background: #2c3f52;
+  background: #336995;
   color: #ed4e6e;
 }
 .grid figcaption h3 {
@@ -148,8 +191,12 @@ footer address:last-child {
   padding: 5px 10px;
   border-radius: 2px;
   display: inline-block;
-  background: #ed4e6e;
+  background: #21445a;
   color: #fff;
+}
+.grid figcaption a:hover {
+  text-decoration: none;
+  background: #008388;
 }
 
 .caption-hover figure img {

@@ -2,22 +2,35 @@ footer {
    background: $menu-item-focus;
    width: 100%;
    min-height: 300px;
-   .footer-logo {
-      background: transparent url('../img/gbpd-logo.png') center center no-repeat;
-      background-size: contain;
-      width: 210px;
-      height: 84px;
+   .logo-gbpd {
       top: 2em;
-      left: 2em;
+      left: 1em;
+      display: flex;
       position: absolute;
+      .footer-logo {
+         background: transparent url('../img/gbpd-logo-s.png') center center no-repeat;
+         background-size: contain;
+         width: 80px;
+         height: 80px;
+      }
+      .text-logo {
+         width: 128px;
+         font-size: 18px;
+         color: #fff;
+         margin-left: 0.6em;
+         white-space: initial;
+         line-height: 1.2em;
+      }
    }
    address {
       top: 2.5em;
       position: absolute;
-      color: #ffffff;
+      color: #fff;
       .social-media-links {
          font-size: 2em;
          letter-spacing: 0.1em;
+         a { color: #fff; }
+         a:hover { color: aquamarine; }
       }
       h6 { text-transform: uppercase; }
       ul {

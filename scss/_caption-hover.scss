@@ -28,7 +28,7 @@
       top: 0;
       left: 0;
       padding: 20px;
-      background: #2c3f52;
+      background: $menu-background;
       color: #ed4e6e;
       h3 {
          margin: 0;
@@ -43,8 +43,12 @@
          padding: 5px 10px;
          border-radius: 2px;
          display: inline-block;
-         background: #ed4e6e;
+         background: $menu-item-focus;
          color: #fff;
+      }
+      a:hover {
+         text-decoration: none;
+         background: $box-border-bg;
       }
    }
 }
