@@ -70,7 +70,16 @@
 }
 
 .align-title {
-  padding: 0 2em;
+  padding: 0 1em;
+}
+
+.feed-news-group {
+  padding: 2px;
+}
+.feed-news-group .feed-item {
+  margin: 5px;
+  display: flex;
+  flex-flow: column;
 }
 
 footer {
