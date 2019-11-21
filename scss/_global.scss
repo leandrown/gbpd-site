@@ -10,16 +10,48 @@
    h1 { margin-top: 1em; }
 }
 .align-title {
-   padding: 0 1em;
+   padding: 0 0.6em;
 }
 // Feed Notas - Home
 .feed-news-group {
-   padding: 2px;
-   .feed-item {
-      margin: 5px;
-      display: flex;
-      flex-flow: column;
+   margin: 8px;
+   ul {
+      list-style-type: none;
+      padding-left: 12px;
+      width: 32em;
+      li {
+         padding: 10px;
+         overflow: auto;
+         border-bottom: #aaa 1px solid;
+         h5 {
+            font-size: 14px;
+            color: $menu-background;
+         }
+         img {
+            float: left;
+            margin: 0 15px 0 0;
+         }
+         p {
+            color: #333;
+            font-size: 14px;
+            margin-bottom: 6px;
+         }
+      }
+      li:hover {
+         background: #eee;
+         cursor: pointer;
+         a { text-decoration: none; }
+         h5 {
+            color: $box-border-bg;
+            text-decoration: underline;
+         }
+      }
    }
+}
+
+// Facebook plugin
+iframe {
+   width: 450px;
 }
 
 // Responsive Styles
