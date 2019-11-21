@@ -14,7 +14,7 @@
 }
 // Feed Notas - Home
 .feed-news-group {
-   margin: 8px;
+   margin: 8px auto;
    ul {
       list-style-type: none;
       padding-left: 12px;
@@ -57,5 +57,33 @@ iframe {
 // Responsive Styles
 @media (max-width: 1200px) {}
 @media (max-width: 992px) {}
-@media (max-width: 768px) {}
-@media (max-width: 576px) {}
+@media (max-width: 768px) {
+   .feed-news-group {
+      ul {
+         width: auto;
+         min-width: 400px;
+         padding: 4px 8px;
+      }
+   }
+   iframe {
+      width: auto;
+      min-width: 450px;
+   }
+}
+@media (max-width: 576px) {
+   .banner {
+      margin-top: 6.6em;
+      height: 280px;
+   }
+   .feed-news-group {
+      ul {
+         width: auto;
+         min-width: 300px;
+         padding: 2px 4px;
+      }
+   }
+   iframe {
+      width: auto;
+      min-width: 340px;
+   }
+}

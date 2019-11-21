@@ -49,15 +49,26 @@ footer {
 // Responsive Styles
 @media (max-width: 1200px) {}
 @media (max-width: 992px) {}
-@media (max-width: 768px) {}
-@media (max-width: 576px) {
+@media (max-width: 768px) {
    footer {
       padding: 3em 0;
-      .footer-logo {
-         top: 0;
-         left: 0;
-         position: relative;
-         margin: auto;
+      .navbar-brand {
+         display: contents;
+         margin-right: 0;
+         .logo-gbpd {
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            .footer-logo {
+               margin: auto;
+               position: relative;
+            }
+            span {
+               display: none;
+            }
+         }
       }
       address {
          top: 3em;
@@ -68,3 +79,4 @@ footer {
       }
    }
 }
+@media (max-width: 576px) {}
