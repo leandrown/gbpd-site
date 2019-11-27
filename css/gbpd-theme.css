@@ -3,21 +3,22 @@
   z-index: 2000;
 }
 #loginNav .logo-gbpd {
-  top: 2em;
-  left: 4.5em;
+  top: 0.6em;
+  left: 4em;
   display: flex;
   position: absolute;
-  width: 180px;
+  width: 240px;
+  padding: 7px 12px;
 }
 #loginNav .logo-gbpd .main-logo {
   background: transparent url("../img/gbpd-logo-s.png") center center no-repeat;
   background-size: contain;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
 }
 #loginNav .logo-gbpd .text-logo {
-  width: 100px;
-  font-size: 14px;
+  width: 122px;
+  font-size: 18px;
   color: #fff;
   margin-left: 0.6em;
   white-space: initial;
@@ -45,6 +46,11 @@
   color: aquamarine;
 }
 
+@media (max-width: 768px) {
+  #loginNav .logo-gbpd {
+    left: 5em;
+  }
+}
 @media (max-width: 576px) {
   #loginNav .navbar-brand {
     display: none;
@@ -58,11 +64,11 @@
   }
 }
 .banner {
-  margin-top: 6.5em;
-  background: #aaa url("../img/banner-gbpd-2021.jpeg") center center no-repeat;
-  background-size: contain;
+  margin-top: 6.6em;
+  background: #aaa url("../img/banner-gbpd-new.png") center center no-repeat;
+  background-size: cover;
   width: 100%;
-  height: 400px;
+  height: 316px;
 }
 
 .row h1 {
@@ -111,25 +117,19 @@
   text-decoration: underline;
 }
 
-iframe {
-  width: 450px;
-}
-
 @media (max-width: 768px) {
   .feed-news-group ul {
     width: auto;
     min-width: 400px;
     padding: 4px 8px;
   }
-
-  iframe {
-    width: auto;
-    min-width: 450px;
-  }
 }
 @media (max-width: 576px) {
   .banner {
+    background: #aaa url("../img/banner-gbpd-2021.jpeg") center center no-repeat;
+    background-size: contain;
     margin-top: 6.6em;
+    width: 100%;
     height: 280px;
   }
 
@@ -137,11 +137,6 @@ iframe {
     width: auto;
     min-width: 300px;
     padding: 2px 4px;
-  }
-
-  iframe {
-    width: auto;
-    min-width: 340px;
   }
 }
 footer {
@@ -151,7 +146,7 @@ footer {
 }
 footer .logo-gbpd {
   top: 2em;
-  left: 1em;
+  left: 1.6em;
   display: flex;
   position: absolute;
 }
