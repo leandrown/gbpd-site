@@ -37,7 +37,7 @@
   top: 2.2em;
   background: #336995;
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  box-shadow: 0 0.6rem 1rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.5);
 }
 #mainNav .nav-link {
   color: #fff;
@@ -117,6 +117,10 @@
   text-decoration: underline;
 }
 
+.news-bg {
+  background: #aaa;
+}
+
 @media (max-width: 768px) {
   .feed-news-group ul {
     width: auto;
@@ -139,6 +143,39 @@
     padding: 2px 4px;
   }
 }
+.form-popup {
+  display: block;
+  position: fixed;
+  right: 10em;
+  border: 2px solid #aaa;
+  border-radius: 3px;
+  z-index: 9;
+}
+.form-popup .form-container {
+  max-width: 300px;
+  padding: 10px;
+  background: #fff;
+  font-size: 14px;
+}
+.form-popup .form-container .form-group {
+  width: 100%;
+  padding: 5px 10px;
+  margin-bottom: 0;
+}
+.form-popup .form-container .form-group label {
+  margin-bottom: 0.2rem;
+}
+.form-popup .form-container .form-group input {
+  height: 30px;
+  font-size: 12px;
+}
+.form-popup .form-container .form-row a {
+  padding: 6px;
+}
+.form-popup .form-container button {
+  margin-right: 0.2rem;
+}
+
 footer {
   background: #21445a;
   width: 100%;
