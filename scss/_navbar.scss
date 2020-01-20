@@ -3,13 +3,26 @@
    background: $menu-item-focus;
    z-index: 2000;
 
+   .btn-associe {
+      background: #EFB728;
+      margin: 4px 0;
+      padding: 4px 8px;
+      border-radius: 2px;
+      transition: 0.5s;
+   }
+   .btn-associe:hover {
+      color: $menu-item-focus;
+      padding: 4px 12px;
+      box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+   }
    .nav-link {
       font-family: $font-family-base;
       font-size: 14px;
       color: #fff;
+
    }
    .nav-link:hover {
-      color: aquamarine;
+
    }
 }
 #mainNav {
@@ -17,7 +30,7 @@
    background: $menu-background;
    font-family: $font-family-base;
    box-shadow: 0 0.2rem 1rem rgba(0,0,0,.5);
-   .nav-link { color: #fff; }
+   .nav-link { color: #fff; padding-right: 1em; }
    .nav-link:hover { color: #EFB728; }
    .logo-gbpd {
       top: 0;
