@@ -7,11 +7,12 @@
    height: 316px;
 }
 .row {
-   h1 { margin-top: 1em; }
+   h1 {
+      margin-top: 1em;
+      color: $menu-item-focus;
+   }
 }
-.align-title {
-   padding: 0 0.6em;
-}
+
 // Feed Notas - Home
 .feed-news-group {
    margin: 8px auto;
