@@ -1,7 +1,7 @@
 // General
 .banner {
    margin-top: 6.6em;
-   background: #aaa url('../img/banner-desktop.png') center center no-repeat;
+   background: $menu-background url('../img/banner-desktop.png') center center no-repeat;
    background-size: cover;
    width: 100%;
    height: 316px;
@@ -50,7 +50,8 @@
    }
 }
 .news-bg {
-   background: #aaa;
+   background: $menu-background url('../img/associe-se-ja.png') center center no-repeat;
+   background-size: cover;
 }
 
 // Responsive Styles

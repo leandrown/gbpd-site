@@ -1,26 +1,16 @@
 footer {
-   background: $menu-item-focus;
+   background: #00445A;
    width: 100%;
    min-height: 300px;
    .logo-gbpd {
       top: 2em;
-      left: 1.6em;
+      left: 1rem;
       display: flex;
       position: absolute;
-      .footer-logo {
-         background: transparent url('../img/gbpd-logo-s.png') center center no-repeat;
-         background-size: contain;
-         width: 80px;
-         height: 80px;
-      }
-      .text-logo {
-         width: 128px;
-         font-size: 18px;
-         color: #fff;
-         margin-left: 0.6em;
-         white-space: initial;
-         line-height: 1.2em;
-      }
+      background: transparent url('../img/gbpd-logo-new.png') center center no-repeat;
+      background-size: contain;
+      width: 150px;
+      height: 62px;
    }
    address {
       top: 2.5em;
