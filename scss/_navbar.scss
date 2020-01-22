@@ -46,19 +46,21 @@
 // Responsive Styles
 @media (max-width: 1200px) {}
 @media (max-width: 992px) {}
-@media (max-width: 768px) {
-   #loginNav {
-      .logo-gbpd {
-         left: 5em;
-      }
-   }
-}
+@media (max-width: 768px) {}
 @media (max-width: 576px) {
    #loginNav {
+      .btn-associe { padding: 4px 8px; }
+      .sm-hide { display: none; }
       .navbar-brand { display: none; }
-      .nav-link { padding: 0.5rem; }
+      .nav-link {
+         i { padding: 5px;}
+      }
    }
    #mainNav {
       top: 2.2em;
+      .logo-gbpd {
+         top: -8px;
+         width: 150px;
+      }
    }
 }
