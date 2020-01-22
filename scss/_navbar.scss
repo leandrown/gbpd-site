@@ -12,7 +12,7 @@
    }
    .btn-associe:hover {
       box-shadow: 0 0 4px 2px rgba(250, 250, 250, 0.4);
-      color: $menu-item-focus !important;
+      color: $menu-background !important;
    }
    .nav-link {
       font-family: $font-family-base;
@@ -32,9 +32,9 @@
    .nav-link { color: #fff; padding-right: 1em; }
    .nav-link:hover { color: #EFB728; }
    .logo-gbpd {
-      top: 0;
-      width: 150px;
-      height: 62px;
+      top: -10px;
+      width: 160px;
+      height: 82px;
       margin: 5px 0;
       display: flex;
       position: absolute;

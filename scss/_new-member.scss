@@ -1,17 +1,50 @@
 .new-member {
    background: $menu-background url('../img/associe-se-ja.png') center center no-repeat;
    background-size: cover;
+   padding-bottom: 1rem;
    color: #fff;
    h1, strong { color: #EFB728; }
-   ul { margin-left: 1.6em; }
+   ul {
+      margin-top: 1.6rem;
+      margin-left: 1.6rem;
+   }
    li i {
       font-size: 14px;
       line-height: 2em;
    }
-   .form-group { padding: 0;  margin-left: 0; }
+   .form-group {
+      padding: 10px 0;
+      margin-left: 0;
+      display: flex;
+      justify-content: start;
+   }
    input[type=text] {
-      width: 300px;
+      width: 290px;
       height: 32px;
+      margin-left: 5px;
+      margin-right: 15px;
+   }
+   input[type=text]::placeholder {
+      font-style: italic;
+      color: #aaa;
+   }
+   button {
+      width: 110px;
+      height: 32px;
+      background: #EFB728;
+      border: 0;
+      border-radius: 3px;
+      color: #fff;
+      font-weight: 400;
+      transition: 0.5s;
+      i {
+         line-height: 2px;
+         font-size: 12px;
+      }
+   }
+   button:hover {
+      color: $menu-background;
+      box-shadow: 0 0 4px 2px rgba(250, 250, 250, 0.4);
    }
 }
 
