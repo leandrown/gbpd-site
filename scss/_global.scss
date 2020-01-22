@@ -13,39 +13,62 @@
    }
 }
 
-// Feed Notas - Home
-.feed-news-group {
-   margin: 8px auto;
-   ul {
-      list-style-type: none;
-      padding-left: 12px;
-      width: 32em;
-      li {
-         padding: 10px;
-         overflow: auto;
-         border-bottom: #aaa 1px solid;
-         h5 {
-            font-size: 14px;
-            color: $menu-background;
+// Feed Notas/Noticias - Home
+#news {
+   margin-bottom: 3em;
+   .row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      .card {
+         width: 250px;
+         height: 250px;
+         background: #026787;
+         .card-body {
+            padding: 20px;
+            background: #fff;
+            color: #606060;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: start;
          }
-         img {
-            float: left;
-            margin: 0 15px 0 0;
-         }
+         img { width: 140px; height: 92px; }
          p {
-            color: #333;
+            padding-top: 10px;
+            color: #000;
             font-size: 14px;
-            margin-bottom: 6px;
+            text-align: center;
+            line-height: normal;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
          }
+         a {
+            margin: 6px;
+            padding: 4px 8px;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: normal;
+            text-align: center;
+            text-decoration: none;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+            transition: 0.6s;
+            cursor: pointer;
+            i { margin-left: 0.6rem; }
+         }
+         a:hover { color:#026787; }
       }
-      li:hover {
-         background: #eee;
-         cursor: pointer;
-         a { text-decoration: none; }
-         h5 {
-            color: $box-border-bg;
-            text-decoration: underline;
-         }
+      .card:hover { background-color: #EFB728; }
+      .card-border {
+         margin: 1.5rem 0;
+         border: 1px solid #026787;
+         border-radius: 0;
+         opacity: 1;
+         transition: 0.6s;
+      }
+      .card-border:hover {
+         border: 1px solid #EFB728;
       }
    }
 }
