@@ -25,46 +25,47 @@
          <div class="container">
             <ul class="nav justify-content-end">
                <li class="nav-item">
-                  <a href="#" class="nav-link btn-associe">
+                  <button class="nav-link btn-associe" id="open-modal-register">
                      <i class="fas fa-id-card-alt"></i> <span class="sm-hide">Associe-se!</span>
-                  </a>
+                  </button>
                </li>
                <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <button class="nav-link" id="open-modal-login">
                      <i class="fas fa-user"></i> <span class="sm-hide">Área do Associado</span>
-                  </a>
+                  </button>
                </li>
                <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <button class="nav-link">
                      <i class="fas fa-envelope-open"></i> <span class="sm-hide">Contato</span>
-                  </a>
+                  </button>
                </li>
             </ul>
             <!-- Formulario Pop-up -->
-            <div class="form-popup">
+            <div id="modal-f" class="form-modal">
                <form action="#" class="form-container">
-                  Área do Associado
-                  <div class="form-row">
-                     <div class="form-group">
-                        <label for="email">E-mail</label>
-                        <input type="email" class="form-control" name="email" id="email" placeholder="email@domain.com">
+                  <div class="form-popup-login">
+                     <h6>Área do Associado</h6>
+                     <div class="form-row">
+                        <div class="form-group">
+                           <label for="email">E-mail</label>
+                           <input type="email" class="form-control" name="email" id="email" placeholder="email@domain.com">
+                        </div>
+                        <div class="form-group">
+                           <label for="senha">Senha</label>
+                           <input type="password" class="form-control" name="senha" id="senha" placeholder="*******">
+                        </div>
                      </div>
-                     <div class="form-group">
-                        <label for="senha">Senha</label>
-                        <input type="password" class="form-control" name="senha" id="senha" placeholder="*******">
+                     <div class="form-row">
+                        <div class="col-md-8">
+                           <a href="#" class="align-middle">Esqueci a senha</a>
+                        </div>
+                        <div class="col-md-4 text-md-right">
+                           <button class="btn btn-primary btn-sm">Entrar</button>
+                        </div>
                      </div>
                   </div>
-                  <div class="form-row">
-                     <div class="col-md-8">
-                        <a href="#" class="align-middle">Esqueci a senha</a>
-                     </div>
-                     <div class="col-md-4 text-md-right">
-                        <button class="btn btn-primary btn-sm">Entrar</button>
-                     </div>
-                  </div>
+               </form>
             </div>
-            </form>
-         </div>
          </div>
       </nav> <!-- End Login Bar -->
       <!-- Navigation Bar -->
@@ -248,9 +249,13 @@
                @GBPDentistica
             </address>
          </div>
+         <div class="row">
+            <small>© 2020 Todos os direitos reservados da GBPD</small>
+         </div>
       </div>
    </footer>
 
+   <script src="js/gbpd.js"></script>
    <!-- jQuery and Bootstrap 4 -->
    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
    <script src="js/bootstrap.bundle.min.js"></script>

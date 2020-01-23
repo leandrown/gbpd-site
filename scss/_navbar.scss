@@ -2,26 +2,29 @@
 #loginNav {
    background: $menu-item-focus;
    z-index: 2000;
+   .nav-item {
+      .btn-associe {
+         background: #EFB728;
+         margin: 4px 0;
+         padding: 4px 8px;
+         border-radius: 2px;
+         transition: 0.5s;
+      }
+      .btn-associe:hover {
+         box-shadow: 0 0 4px 2px rgba(250, 250, 250, 0.4);
+         color: $menu-background !important;
+      }
+      button {
+         background-color: transparent;
+         border: none;
+         font-family: $font-family-base;
+         font-size: 14px;
+         color: #fff;
 
-   .btn-associe {
-      background: #EFB728;
-      margin: 4px 0;
-      padding: 4px 8px;
-      border-radius: 2px;
-      transition: 0.5s;
-   }
-   .btn-associe:hover {
-      box-shadow: 0 0 4px 2px rgba(250, 250, 250, 0.4);
-      color: $menu-background !important;
-   }
-   .nav-link {
-      font-family: $font-family-base;
-      font-size: 14px;
-      color: #fff;
-
-   }
-   .nav-link:hover {
-      color: aquamarine;
+      }
+      button:hover {
+         color: aquamarine;
+      }
    }
 }
 #mainNav {
@@ -46,7 +49,13 @@
 // Responsive Styles
 @media (max-width: 1200px) {}
 @media (max-width: 992px) {}
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+   #mainNav {
+      #navbarResponsive {
+         .navbar-nav { padding-top: 20px; }
+      }
+   }
+}
 @media (max-width: 576px) {
    #loginNav {
       .btn-associe { padding: 4px 8px; }

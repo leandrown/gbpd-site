@@ -1,7 +1,7 @@
 footer {
    background: #00445A;
    width: 100%;
-   min-height: 240px;
+   min-height: 220px;
    .logo-gbpd {
       top: 2rem;
       left: 1rem;
@@ -33,6 +33,14 @@ footer {
    }
    address:last-child {
       text-align: center;
+   }
+   small {
+      padding-top: 15px;
+      margin-bottom: 5px;
+      color: #fff;
+      font-weight: 300;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
    }
 }
 
@@ -69,6 +77,7 @@ footer {
       address:last-child {
          margin-bottom: 3em;
       }
+      small { margin: auto; padding-top: 20px; }
    }
 }
 @media (max-width: 576px) {}
