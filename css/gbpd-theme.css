@@ -274,59 +274,69 @@
   /* Black w/ opacity */
 }
 
-.form-container {
+.form-container .form-popup-register, .form-container .form-popup-login {
   display: none;
-}
-.form-container .form-popup-login {
   max-width: 300px;
   position: fixed;
   top: 2rem;
-  right: 10.6rem;
-  padding: 15px;
+  padding: 17px;
   font-size: 14px;
-  color: #fff;
-  background: #336995;
-  border: 2px solid #21445a;
   border-radius: 3px;
   box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.6);
-  z-index: 9;
 }
-.form-container .form-popup-login .form-group {
+.form-container .form-popup-register .form-group, .form-container .form-popup-login .form-group {
   width: 100%;
   padding: 5px 10px;
   margin-bottom: 0;
 }
-.form-container .form-popup-login .form-group label {
+.form-container .form-popup-register .form-group label, .form-container .form-popup-login .form-group label {
   margin-bottom: 0.2rem;
 }
-.form-container .form-popup-login .form-group input {
+.form-container .form-popup-register .form-group input, .form-container .form-popup-login .form-group input {
   height: 30px;
   font-size: 12px;
 }
-.form-container .form-popup-login .form-row:last-child {
+.form-container .form-popup-register .form-row:last-child, .form-container .form-popup-login .form-row:last-child {
   padding-top: 10px;
 }
-.form-container .form-popup-login .form-row:last-child a {
+.form-container .form-popup-register .form-row:last-child a, .form-container .form-popup-login .form-row:last-child a {
   margin-top: 3px;
   padding-left: 6px;
   color: #EFB728;
   transition: 0.5s;
 }
-.form-container .form-popup-login .form-row:last-child a:hover {
+.form-container .form-popup-register .form-row:last-child a:hover, .form-container .form-popup-login .form-row:last-child a:hover {
   text-decoration: underline;
 }
-.form-container .form-popup-login button {
+.form-container .form-popup-register button, .form-container .form-popup-login button {
   margin-right: 0.2rem;
   padding: 4px 20px;
   background-color: #EFB728;
   transition: 0.5s;
 }
-.form-container .form-popup-login button:hover {
+.form-container .form-popup-register button:hover, .form-container .form-popup-login button:hover {
   box-shadow: 0 0 4px 2px rgba(250, 250, 250, 0.4);
   color: #336995 !important;
 }
+.form-container .form-popup-register {
+  right: 15rem;
+  color: #EFB728;
+  background-color: #21445a;
+  border: 1px solid #21445a;
+  z-index: 10;
+}
+.form-container .form-popup-login {
+  right: 10.6rem;
+  color: #fff;
+  background-color: #336995;
+  border: 2px solid #21445a;
+  z-index: 9;
+}
 
 @media (max-width: 1400px) {
+  .form-container .form-popup-register {
+    right: 11.5rem;
+  }
   .form-container .form-popup-login {
     right: 5rem;
   }
