@@ -25,7 +25,15 @@
          </address>
       </div>
       <div class="row">
-         <small>© 2020 Todos os direitos reservados da GBPD</small>
+         <div class="col-md-6">
+            <small>© 2020 Todos os direitos reservados da GBPD</small>
+         </div>
+         <div class="col-md-6 text-right mandrillus">
+            <a href="https://www.mandrillus.com.br" target="_blank" title="Desenvolvido por Mandrillus. Clique para saber mais...">
+            <span class="icon mandrillus-icon" title="Desenvolvido por Mandrillus. Clique para saber mais..."></span>
+            <small>Copyritght © 2020 - Mandrillus. Todos os direitos reservados.</small>
+            </a>
+         </div>
       </div>
    </div>
 <!-- END FOOTER -->
