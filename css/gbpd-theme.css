@@ -392,7 +392,6 @@ footer address:last-child {
 footer .gbpd-copyright small {
   padding-top: 15px;
   color: #fff;
-  font-weight: 300;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
