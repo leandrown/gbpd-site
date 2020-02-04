@@ -9,7 +9,7 @@
    <div class="container">
       <div class="row">
          <div class="col">
-            <h1>Notas</h1>
+            <h1>Notícias</h1>
          </div>
       </div>
       <div class="row">

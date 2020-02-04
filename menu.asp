@@ -97,7 +97,7 @@
                <a class="nav-link js-scroll-trigger" href="#">Parceiros</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link js-scroll-trigger" href="#">Notas</a>
+               <a class="nav-link js-scroll-trigger" href="#">Notícias</a>
             </li>
          </ul>
       </nav>
