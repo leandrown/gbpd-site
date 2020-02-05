@@ -1,5 +1,5 @@
 <!-- FOOTER -->
-   <div class="container">
+   <div class="container" id="contacts">
       <div class="row">
          <div class="col-lg-4">
             <a class="navbar-brand" href="#">

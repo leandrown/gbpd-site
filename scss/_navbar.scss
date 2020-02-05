@@ -1,4 +1,4 @@
-// General
+// BARRA MENU LOGIN
 #loginNav {
    background: $menu-item-focus;
    z-index: 2000;
@@ -27,6 +27,7 @@
       }
    }
 }
+// BARRA MENU PRINCIPAL
 #mainNav {
    top: 2.2em;
    background: $menu-background;
@@ -46,7 +47,7 @@
    }
 }
 
-// Responsive Styles
+// MENU BAR - Responsive Styles
 @media (max-width: 1200px) {}
 @media (max-width: 992px) {}
 @media (max-width: 768px) {

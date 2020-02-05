@@ -14,7 +14,7 @@
             </button>
          </li>
          <li class="nav-item">
-            <button class="nav-link">
+            <button class="nav-link" id="contact-button">
                <i class="fas fa-envelope-open"></i> <span class="sm-hide">Contato</span>
             </button>
          </li>
@@ -94,10 +94,10 @@
                <a class="nav-link js-scroll-trigger" href="#">Encontros</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link js-scroll-trigger" href="#">Parceiros</a>
+               <a class="nav-link js-scroll-trigger" href="#partners">Parceiros</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link js-scroll-trigger" href="#">Notícias</a>
+               <a class="nav-link js-scroll-trigger" href="#news">Notícias</a>
             </li>
          </ul>
       </nav>

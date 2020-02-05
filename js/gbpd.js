@@ -6,6 +6,12 @@ const formLogin = document.querySelector('.form-popup-login');
 const buttonRegister = document.querySelector('#open-modal-register');
 const buttonLogin = document.querySelector('#open-modal-login');
 
+const contactButton = document.querySelector('#contact-button');
+
+contactButton.onclick = function() {
+   window.location.hash = '#contacts';
+}
+
 buttonRegister.onclick = function() {
    if (modalElement.style.display === 'none') {
       modalElement.style.display = 'block';
