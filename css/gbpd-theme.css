@@ -256,6 +256,30 @@
   margin-top: 10em;
 }
 
+#contact {
+  margin-top: 6.8em;
+}
+#contact .banner-contact {
+  background: url("../img/top_banner-contact.png") center center no-repeat;
+  width: 100%;
+  height: 200px;
+}
+#contact button {
+  width: 110px;
+  height: 32px;
+  background: #EFB728;
+  border: 0;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 400;
+  transition: 0.5s;
+  -webkit-font-smoothing: antialiased;
+}
+#contact button:hover {
+  color: #336995;
+  box-shadow: 0 0 4px 2px rgba(250, 250, 250, 0.4);
+}
+
 .form-modal {
   display: none;
   position: fixed;
