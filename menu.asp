@@ -88,7 +88,7 @@
                <a class="nav-link js-scroll-trigger" href="/">Home</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link js-scroll-trigger" href="#">Quem Somos</a>
+               <a class="nav-link js-scroll-trigger" href="/quem-somos.asp">Quem Somos</a>
             </li>
             <li class="nav-item">
                <a class="nav-link js-scroll-trigger" href="#">Encontros</a>
@@ -97,7 +97,7 @@
                <a class="nav-link js-scroll-trigger" href="#partners">Parceiros</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link js-scroll-trigger" href="#news">Notícias</a>
+               <a class="nav-link js-scroll-trigger" href="/#news">Notícias</a>
             </li>
          </ul>
       </nav>

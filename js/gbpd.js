@@ -9,7 +9,7 @@ const buttonLogin = document.querySelector('#open-modal-login');
 const contactButton = document.querySelector('#contact-button');
 
 contactButton.onclick = function() {
-   window.location.hash = '#contacts';
+   window.location.href = 'contato.asp';
 }
 
 buttonRegister.onclick = function() {

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="no-touch">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+   <title>GBPD - Grupo Brasileiro de Professores de Dentística</title>
+
+   <link href="logo.ico" rel="icon" type="image/x-icon">
+   <link rel="stylesheet" media="screen" href="css/gbpd-theme.css">
+
+   <!-- Bootstrap 4 -->
+   <link rel="stylesheet" media="screen" href="css/bootstrap.min.css">
+
+   <!-- Font Awesome -->
+   <script src="https://kit.fontawesome.com/af40653a1b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   <header>
+      <!-- Login Bar -->
+      <nav class="nav fixed-top" id="loginNav">
+         <div class="container">
+            <ul class="nav justify-content-end">
+               <li class="nav-item">
+                  <button class="nav-link btn-associe" id="open-modal-register">
+                     <i class="fas fa-id-card-alt"></i> <span class="sm-hide">Associe-se!</span>
+                  </button>
+               </li>
+               <li class="nav-item">
+                  <button class="nav-link" id="open-modal-login">
+                     <i class="fas fa-user"></i> <span class="sm-hide">Área do Associado</span>
+                  </button>
+               </li>
+               <li class="nav-item">
+                  <button class="nav-link" id="contact-button">
+                     <i class="fas fa-envelope-open"></i> <span class="sm-hide">Contato</span>
+                  </button>
+               </li>
+            </ul>
+            <!-- Formulario Pop-up -->
+            <div id="modal-f" class="form-modal">
+               <form action="#" class="form-container">
+                  <div class="form-popup-register">
+                     <h6>Associe-se já!</h6>
+                     <div class="form-row">
+                        <div class="form-group">
+                           <label for="email">E-mail ou CPF</label>
+                           <input type="email" class="form-control" name="email" id="emailReg" placeholder="email@domain.com">
+                        </div>
+                        <div class="form-group">
+                           <label for="senha">Senha</label>
+                           <input type="password" class="form-control" name="senha" id="senhaReg" placeholder="*******">
+                        </div>
+                        <div class="form-group">
+                           <label for="senha">Repetir Senha</label>
+                           <input type="password" class="form-control" name="senha" id="senhaReg2" placeholder="*******">
+                        </div>
+                     </div>
+                     <div class="form-row">
+                        <div class="col-md-12 text-md-right">
+                           <button class="btn btn-primary btn-sm">Cadastrar</button>
+                        </div>
+                     </div>
+                  </div>
+               </form>
+
+               <form action="#" class="form-container">
+                  <div class="form-popup-login">
+                     <h6>Área do Associado</h6>
+                     <div class="form-row">
+                        <div class="form-group">
+                           <label for="email">E-mail</label>
+                           <input type="email" class="form-control" name="email" id="email" placeholder="email@domain.com">
+                        </div>
+                        <div class="form-group">
+                           <label for="senha">Senha</label>
+                           <input type="password" class="form-control" name="senha" id="senha" placeholder="*******">
+                        </div>
+                     </div>
+                     <div class="form-row">
+                        <div class="col-md-8">
+                           <a href="#" class="align-middle">Esqueci a senha</a>
+                        </div>
+                        <div class="col-md-4 text-md-right">
+                           <button class="btn btn-primary btn-sm">Entrar</button>
+                        </div>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </nav> <!-- End Login Bar -->
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3" id="mainNav">
+         <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+               <div class="logo-gbpd" title="GBPD - Grupo Brasileiro de Professores de Dentística"></div>
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+               aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse shift" id="navbarResponsive">
+               <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                  <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger" href="/">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger" href="#">Quem Somos</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger" href="#">Encontros</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger" href="#">Parceiros</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger" href="#">Notícias</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </nav> <!-- end navigation -->
+   </header>
+
+   <!-- NOTICIAS -->
+   <section id="news-page">
+      <div class="container">
+         <div class="row justify-content-center">
+            <div class="col col-sm-8 card">
+               <div class="card-body">
+                  <h2>Notícias</h2>
+                  <div class="feed-news-group">
+                     <ul>
+                        <li>
+                           <img src="img/notas/n-gbpd-rio-anais-2019.jpg" alt="Anais do Congresso GBPD RIO 2019">
+                           <h6>Os Anais do Congresso GBPD RIO 2019 já estão publicados!</h6>
+                           <p>Os Anais podem ser acessados através do site...</p>
+                           <a href="#">Veja mais...</a>
+                        </li>
+                        <li>
+                           <img src="img/notas/n-cro-rj.jpeg" alt="Projeto Unindo Forças">
+                           <h6>Os Anais do Congresso GBPD RIO 2019 já estão publicados!</h6>
+                           <p>Os Anais podem ser acessados através do site...</p>
+                           <a href="#">Veja mais...</a>
+                        </li>
+                        <li>
+                           <img src="img/notas/n-encontro-gbpd-rio-2019.png" alt="">
+                           <h6>Os Anais do Congresso GBPD RIO 2019 já estão publicados!</h6>
+                           <p>Os Anais podem ser acessados através do site...</p>
+                           <a href="#">Veja mais...</a>
+                        </li>
+                        <li>
+                           <img src="img/notas/n-estetica.jpeg" alt="">
+                           <h6>Os Anais do Congresso GBPD RIO 2019 já estão publicados!</h6>
+                           <p>Os Anais podem ser acessados através do site...</p>
+                           <a href="#">Veja mais...</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <footer>
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-4">
+               <a class="navbar-brand" href="#">
+                  <div class="logo-gbpd" title="GBPD - Grupo Brasileiro de Professores de Dentística"></div>
+               </a>
+            </div>
+            <address class="col-lg-4">
+               <h6>Grupo Brasileiro de Professores de Dentística</h6>
+               <ul>
+                  <li>Rua Joaquim Ferreira, 147 / 151 A Torre Pacaembu</li>
+                  <li>São Paulo - SP</li>
+                  <li>CEP: 05033-080</li>
+               </ul>
+            </address>
+            <address class="col-lg-4">
+               <h6>Redes Sociais</h6>
+               <div class="social-media-links">
+                  <a href="https://www.facebook.com/GBPDentistica/"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+               </div>
+               @GBPDentistica
+            </address>
+         </div>
+         <div class="row">
+            <div class="col-md-6 gbpd-copyright">
+               <small>© 2020 Todos os direitos reservados da GBPD</small>
+            </div>
+            <div class="col-md-6 mandrillus">
+               <a href="https://www.mandrillus.com.br" target="_blank" title="Conheça Mandrillus.">
+                  <span class="icon mandrillus-icon" title="Conheça Mandrillus"></span>
+                  <small>© 2020 - Desenvolvido por Mandrillus.</small>
+               </a>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <script src="js/gbpd.js"></script>
+   <!-- jQuery and Bootstrap 4 -->
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
