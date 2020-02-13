@@ -90,10 +90,10 @@
                <a class="nav-link js-scroll-trigger" href="encontros.asp">Encontros</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link js-scroll-trigger" href="#partners">Parceiros</a>
+               <a class="nav-link js-scroll-trigger" href="index.asp#partners">Parceiros</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link js-scroll-trigger" href="noticias.asp">Notícias</a>
+               <a class="nav-link js-scroll-trigger" href="central-noticias.asp">Notícias</a>
             </li>
          </ul>
       </nav>

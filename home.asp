@@ -87,7 +87,7 @@
                   <figure>
                      <img src="img/parceiros/logo-alodyb.png" alt="Asociación Latinoamericana de Operatoria Dental y Biomateriales">
                      <figcaption>
-                        <a href="#">ALODYB site <i class="fas fa-external-link-alt"></i></a>
+                        <a href="http://www.alodyb.com" target="_blank">ALODYB site <i class="fas fa-external-link-alt"></i></a>
                      </figcaption>
                   </figure>
                </li>
@@ -95,7 +95,7 @@
                   <figure>
                      <img src="img/parceiros/logo-cro-rj.png" alt="Conselho Regional de Odontologia do Rio de Janeiro">
                      <figcaption>
-                        <a href="#">CRO-RJ site <i class="fas fa-external-link-alt"></i></a>
+                        <a href="http://www.cro-rj.org.br/" target="_blank">CRO-RJ site <i class="fas fa-external-link-alt"></i></a>
                      </figcaption>
                   </figure>
                </li>
@@ -103,7 +103,7 @@
                   <figure>
                      <img src="img/parceiros/logo-gbmd.png" alt="Grupo Brasileiro de Materiais Dentários">
                      <figcaption>
-                        <a href="#">GBMD site <i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://www.gbmd.com.br/" target="_blank">GBMD site <i class="fas fa-external-link-alt"></i></a>
                      </figcaption>
                   </figure>
                </li>
@@ -111,7 +111,7 @@
                   <figure>
                      <img src="img/parceiros/logo-sbpqo.png" alt="Sociedade Brasileira de Pesquisa Odontológica">
                      <figcaption>
-                        <a href="#">SBPqO site <i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://www.sbpqo.org.br/" target="_blank">SBPqO site <i class="fas fa-external-link-alt"></i></a>
                      </figcaption>
                   </figure>
                </li>

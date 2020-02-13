@@ -2,7 +2,7 @@
    <div class="container" id="contacts">
       <div class="row">
          <div class="col-lg-4">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.asp">
                <div class="logo-gbpd" title="GBPD - Grupo Brasileiro de Professores de Dentística"></div>
             </a>
          </div>
@@ -18,10 +18,10 @@
             <h6>Redes Sociais</h6>
             <div class="social-media-links">
                <a href="https://www.facebook.com/GBPDentistica/"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-               <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-               <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+               <a href="https://www.instagram.com/gbpdentistica/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+               <a href="https://twitter.com/gbpdentistica/"><i class="fab fa-twitter" aria-hidden="true"></i></a>
             </div>
-            @GBPDentistica
+            <a href="https://www.instagram.com/gbpdentistica/">@GBPDentistica</a>
          </address>
       </div>
       <div class="row">

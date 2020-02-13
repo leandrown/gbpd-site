@@ -310,6 +310,11 @@
   flex-flow: column;
 }
 
+#cadastro {
+  margin-top: 6em;
+  margin-bottom: 2em;
+}
+
 #contact {
   margin-top: 6em;
 }
@@ -456,7 +461,14 @@ footer address .social-media-links a {
   color: #fff;
 }
 footer address .social-media-links a:hover {
-  color: aquamarine;
+  color: #EFB728;
+}
+footer address a {
+  color: #fff;
+}
+footer address a:hover {
+  color: #EFB728;
+  text-decoration: none;
 }
 footer address h6 {
   text-transform: uppercase;

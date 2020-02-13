@@ -21,7 +21,12 @@ footer {
          font-size: 2em;
          letter-spacing: 0.1em;
          a { color: #fff; }
-         a:hover { color: aquamarine; }
+         a:hover { color: #EFB728; }
+      }
+      a { color: #fff; }
+      a:hover {
+         color: #EFB728;
+         text-decoration: none;
       }
       h6 { text-transform: uppercase; }
       ul {
