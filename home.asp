@@ -4,7 +4,7 @@
    <div class="banner"></div>
 </section>
 
-<!-- NOTAS/NOTICIAS -->
+<!-- NOTICIAS -->
 <section id="news">
    <div class="container">
       <div class="row">

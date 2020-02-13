@@ -21,26 +21,22 @@
       </ul>
       <!-- Formulario Pop-up -->
       <div id="modal-f" class="form-modal">
-         <form action="#" class="form-container">
+         <form action="cadastro.asp" class="form-container">
             <div class="form-popup-register">
                <h6>Associe-se já!</h6>
                <div class="form-row">
                   <div class="form-group">
-                     <label for="email">E-mail ou CPF</label>
+                     <label for="email">E-mail</label>
                      <input type="email" class="form-control" name="email" id="emailReg" placeholder="email@domain.com">
                   </div>
                   <div class="form-group">
-                     <label for="senha">Senha</label>
-                     <input type="password" class="form-control" name="senha" id="senhaReg" placeholder="*******">
-                  </div>
-                  <div class="form-group">
-                     <label for="senha">Repetir Senha</label>
-                     <input type="password" class="form-control" name="senha" id="senhaReg2" placeholder="*******">
+                     <label for="cpf">CPF</label>
+                     <input type="number" class="form-control" name="cpf" id="cpfReg" placeholder="Insira o seu CPF">
                   </div>
                </div>
                <div class="form-row">
                   <div class="col-md-12 text-md-right">
-                     <button class="btn btn-primary btn-sm">Cadastrar</button>
+                     <button class="btn btn-primary btn-sm" id="btn-register">Cadastrar</button>
                   </div>
                </div>
             </div>
@@ -75,7 +71,7 @@
 <!-- Navigation Bar -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3" id="mainNav">
    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <a class="navbar-brand js-scroll-trigger" href="index.asp">
          <div class="logo-gbpd" title="GBPD - Grupo Brasileiro de Professores de Dentística"></div>
       </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
@@ -85,19 +81,19 @@
       <nav class="collapse navbar-collapse shift" id="navbarResponsive">
          <ul class="navbar-nav ml-auto my-2 my-lg-0">
             <li class="nav-item">
-               <a class="nav-link js-scroll-trigger" href="/">Home</a>
+               <a class="nav-link js-scroll-trigger" href="index.asp">Home</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link js-scroll-trigger" href="/quem-somos.asp">Quem Somos</a>
+               <a class="nav-link js-scroll-trigger" href="quem-somos.asp">Quem Somos</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link js-scroll-trigger" href="#">Encontros</a>
+               <a class="nav-link js-scroll-trigger" href="encontros.asp">Encontros</a>
             </li>
             <li class="nav-item">
                <a class="nav-link js-scroll-trigger" href="#partners">Parceiros</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link js-scroll-trigger" href="/#news">Notícias</a>
+               <a class="nav-link js-scroll-trigger" href="noticias.asp">Notícias</a>
             </li>
          </ul>
       </nav>

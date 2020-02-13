@@ -28,6 +28,7 @@
       <div class="container">
          <div class="row justify-content-center">
             <div class="col col-sm-8">
+               <a href="https://br.freepik.com/fotos-vetores-gratis/negocio"><small>&copy Designed by yanalya / Freepik</small></a>
                <div class="banner-contact"></div>
             </div>
          </div>

@@ -3,8 +3,10 @@ const modalElement = document.querySelector('#modal-f');
 const formRegister = document.querySelector('.form-popup-register');
 const formLogin = document.querySelector('.form-popup-login');
 
-const buttonRegister = document.querySelector('#open-modal-register');
-const buttonLogin = document.querySelector('#open-modal-login');
+const buttonPopupReg = document.querySelector('#open-modal-register');
+const buttonPopupLogin = document.querySelector('#open-modal-login');
+
+const buttonRegister = document.querySelector('#btn-register');
 
 const contactButton = document.querySelector('#contact-button');
 
@@ -13,6 +15,10 @@ contactButton.onclick = function() {
 }
 
 buttonRegister.onclick = function() {
+   window.location.href = 'cadastro.asp';
+}
+
+buttonPopupReg.onclick = function() {
    if (modalElement.style.display === 'none') {
       modalElement.style.display = 'block';
       formRegister.style.display = 'block';
@@ -24,7 +30,7 @@ buttonRegister.onclick = function() {
    }
 }
 
-buttonLogin.onclick = function() {
+buttonPopupLogin.onclick = function() {
    if (modalElement.style.display === 'none') {
       modalElement.style.display = 'block';
       formRegister.style.display = 'none';
