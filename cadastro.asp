@@ -33,7 +33,7 @@
                      <div class="card-body">
                         <h4 class="card-title">Dados Pessoais</h4>
                         <div class="form-row">
-                           <div class="col-md-10 mb-3">
+                           <div class="col-md-12 mb-3">
                               <label for="txtNome">Nome:</label>
                               <input type="text" class="form-control" name="txtNome" id="nome" placeholder="Seu nome completo" required>
                            </div>
@@ -55,15 +55,15 @@
                            </div>
                         </div>
                         <div class="form-row">
-                           <div class="col-md-4 mb-3">
+                           <div class="col-md-3 mb-3">
                               <label for="txtDataNasc">Data de Nascimento:</label>
                               <input type="date" class="form-control" name="txtDataNasc" id="dataNasc" placeholder="dd/mm/aaaa" required>
                            </div>
-                           <div class="col-md-4 mb-3">
+                           <div class="col-md-6 mb-3">
                               <label for="txtNaturalidade">Naturalidade:</label>
                               <input type="text" class="form-control" name="txtNaturalidade" id="naturalidade" placeholder="Insira sua Naturalidade">
                            </div>
-                           <div class="col-md-2 mb-3">
+                           <div class="col-md-1 mb-3">
                               <label for="cbotUF">UF:</label>
                               <select class="form-control" name="cbotUF" id="uf" required>
                                  <option value="">--</option>
@@ -97,9 +97,82 @@
                               </select>
                            </div>
                         </div>
-                        <div class="form-row"></div>
+                        <div class="form-row">
+                           <div class="col-md-4 mb-3">
+                              <label for="cboEstadoCivil">Estado Civil:</label>
+                              <select class="form-control" name="cboEstadoCivil" id="estadoCivil" required>
+                                 <option value="">--</option>
+                                 <option value="s">Solteiro</option>
+                                 <option value="c">Casado</option>
+                                 <option value="b">Separado</option>
+                                 <option value="d">Divorciado</option>
+                                 <option value="v">Viúvo</option>
+                              </select>
+                           </div>
+                        </div>
+                        <div class="form-row">
+                           <div class="col-md-4 mb-3">
+                              <label for="txtCpf">CPF:</label>
+                              <input type="number" class="form-control" name="txtCpf" id="cpf" placeholder="000.000.000-00" required>
+                           </div>
+                           <div class="col-md-4 mb-3">
+                              <label for="txtRG">RG:</label>
+                              <input type="number" class="form-control" name="txtRG" id="rg" placeholder="00.000.000-0">
+                           </div>
+                           <div class="col-md-2 mb-3">
+                              <label for="txtOrgaoEmissor">Órgão Emissor:</label>
+                              <input type="text" class="form-control" name="txtOrgaoEmissor" id="orgaoEmissor" placeholder="Nome do Órgão Emissor">
+                           </div>
+                        </div>
+                        <div class="form-row">
+                           <div class="col-md-4 mb-3">
+                              <label for="txtCro">CRO (UF/Nº):</label>
+                              <input type="text" class="form-control" name="txtCro" id="cro" placeholder="Insira o número do CRO">
+                           </div>
+                           <div class="col-md-2 mb-3">
+                              <label for="cboDocente">Docente:</label>
+                              <select class="form-control" name="cboDocente" id="docente">
+                                 <option value="">--</option>
+                                 <option value="s">Sim</option>
+                                 <option value="n">Não</option>
+                              </select>
+                           </div>
+                        </div>
+                        <div class="form-row">
+                           <div class="col-md-10 mb-3">
+                              <label for="txtFaculdade">Faculdade:</label>
+                              <input type="text" class="form-control" name="txtFaculdade" id="faculdade" placeholder="Insira o nome da faculdade ou instituição">
+                           </div>
+                        </div>
                         <hr>
                         <h4 class="card-title">Endereço Residencial</h4>
+                        <div class="form-row">
+                           <div class="col-sm-12 mb-3">
+                              <label for="txtEnderecoRes">Endereço:</label>
+                              <input type="text" class="form-control" name="txtEnderecoRes" id="enderecoRes" placeholder="Rua e número" required>
+                           </div>
+                        </div>
+                        <div class="form-row">
+                           <div class="col-sm-6 mb-3">
+                              <label for="txtComplementoRes">Complemento:</label>
+                              <input type="text" class="form-control" name="txtComplementoRes" id="complementoRes" placeholder="Complemento">
+                           </div>
+                           <div class="col-sm-6 mb-3">
+                              <label for="txtBairroRes">Bairro:</label>
+                              <input type="text" class="form-control" name="txtBairroRes" id="bairroRes" placeholder="Bairro" required>
+                           </div>
+                        </div>
+                        <div class="form-row"></div>
+                        <div class="form-row"></div>
+                        <div class="form-row"></div>
+                        <div class="form-row"></div>
+                        <div class="form-row"></div>
+                        <hr>
+                        <h4 class="card-title">Endereço Comercial</h4>
+                        <div class="form-row"></div>
+                        <div class="form-row"></div>
+                        <div class="form-row"></div>
+                        <div class="form-row"></div>
                         <div class="form-row"></div>
                      </div>
                   </div>
