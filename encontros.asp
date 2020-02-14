@@ -57,6 +57,7 @@
                            <div class="row">
                               <div class="col-sm-3">
                                  <div class="card h-100">
+                                    <img src="img/eventos/passados/thumbs.png" class="card-img-top w-50 mx-auto" alt="" title="">
                                     <div class="card-body">
                                        <a href="#" class="card-link">23º Encontro do GBPD, no Rio de Janeiro, de 06 a 08 de junho de 2019</a>
                                     </div>
@@ -64,6 +65,7 @@
                               </div>
                               <div class="col-sm-3">
                                  <div class="card h-100">
+                                    <img src="img/eventos/passados/thumbs.png" class="card-img-top w-50 mx-auto" alt="" title="">
                                     <div class="card-body">
                                        <a href="#" class="card-link">22º Encontro do GBPD, em Recife, de 14 a 17 de junho de 2017</a>
                                     </div>
@@ -71,6 +73,7 @@
                               </div>
                               <div class="col-sm-3">
                                  <div class="card h-100">
+                                    <img src="img/eventos/passados/thumbs.png" class="card-img-top w-50 mx-auto" alt="" title="">
                                     <div class="card-body">
                                        <a href="#" class="card-link">XXI Encontro GBPD Belém do Pará, PA 2015</a>
                                     </div>
@@ -78,6 +81,7 @@
                               </div>
                               <div class="col-sm-3">
                                  <div class="card h-100">
+                                    <img src="img/eventos/passados/thumbs.png" class="card-img-top w-50 mx-auto" alt="" title="">
                                     <div class="card-body">
                                        <a href="#" class="card-link">XX Encontro GBPD São Paulo, SP 2013</a>
                                     </div>
@@ -88,29 +92,33 @@
                            <div class="row">
                               <div class="col-sm-3">
                                  <div class="card h-100">
+                                    <img src="img/eventos/passados/thumbs.png" class="card-img-top w-50 mx-auto" alt="" title="">
                                     <div class="card-body">
-                                       <a href="#" class="card-link">23º Encontro do GBPD, no Rio de Janeiro, de 06 a 08 de junho de 2019</a>
+                                       <a href="#" class="card-link">XIX Encontro GBPD - Campo Grande, MS - 2011</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="col-sm-3">
                                  <div class="card h-100">
+                                    <img src="img/eventos/passados/thumbs.png" class="card-img-top w-50 mx-auto" alt="" title="">
                                     <div class="card-body">
-                                       <a href="#" class="card-link">22º Encontro do GBPD, em Recife, de 14 a 17 de junho de 2017</a>
+                                       <a href="#" class="card-link">XVIII Encontro GBPD - Foz do Iguaçu, PR - 2009</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="col-sm-3">
                                  <div class="card h-100">
+                                    <img src="img/eventos/passados/thumbs.png" class="card-img-top w-50 mx-auto" alt="" title="">
                                     <div class="card-body">
-                                       <a href="#" class="card-link">XXI Encontro GBPD Belém do Pará, PA 2015</a>
+                                       <a href="#" class="card-link">XVII Encontro GBPD - Gramado - 2007</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="col-sm-3">
                                  <div class="card h-100">
+                                    <img src="img/eventos/passados/thumbs.png" class="card-img-top w-50 mx-auto" alt="" title="">
                                     <div class="card-body">
-                                       <a href="#" class="card-link">XX Encontro GBPD São Paulo, SP 2013</a>
+                                       <a href="#" class="card-link">XVI Encontro GBPD - Rio de Janeiro - 2005</a>
                                     </div>
                                  </div>
                               </div>
@@ -119,35 +127,134 @@
                            <div class="row">
                               <div class="col-sm-3">
                                  <div class="card h-100">
+                                    <img src="img/eventos/passados/thumbs.png" class="card-img-top w-50 mx-auto" alt="" title="">
                                     <div class="card-body">
-                                       <a href="#" class="card-link">23º Encontro do GBPD, no Rio de Janeiro, de 06 a 08 de junho de 2019</a>
+                                       <a href="#" class="card-link">XV Encontro do GBPD - Fortaleza, CE - 2003</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="col-sm-3">
                                  <div class="card h-100">
+                                    <img src="img/eventos/passados/thumbs.png" class="card-img-top w-50 mx-auto" alt="" title="">
                                     <div class="card-body">
-                                       <a href="#" class="card-link">22º Encontro do GBPD, em Recife, de 14 a 17 de junho de 2017</a>
+                                       <a href="#" class="card-link">XIV Encontro do GBPD - Belo Horizonte, MG - 2001</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="col-sm-3">
                                  <div class="card h-100">
+                                    <img src="img/eventos/passados/thumbs.png" class="card-img-top w-50 mx-auto" alt="" title="">
                                     <div class="card-body">
-                                       <a href="#" class="card-link">XXI Encontro GBPD Belém do Pará, PA 2015</a>
+                                       <a href="#" class="card-link">XIII Encontro do GBPD - Recife, PE - 1999</a>
                                     </div>
                                  </div>
                               </div>
                               <div class="col-sm-3">
                                  <div class="card h-100">
+                                    <img src="img/eventos/passados/thumbs.png" class="card-img-top w-50 mx-auto" alt="" title="">
                                     <div class="card-body">
-                                       <a href="#" class="card-link">XX Encontro GBPD São Paulo, SP 2013</a>
+                                       <a href="#" class="card-link">XII Encontro do GBPD - Vitória, ES - 1997</a>
                                     </div>
                                  </div>
                               </div>
                            </div>
-
-
+                           <hr>
+                           <div class="row">
+                              <div class="col-sm-3">
+                                 <div class="card h-100">
+                                    <img src="img/eventos/passados/thumbs.png" class="card-img-top w-50 mx-auto" alt="" title="">
+                                    <div class="card-body">
+                                       <a href="#" class="card-link">XI Encontro do GBPD - Campos do Jordão, SP - 1995</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-3">
+                                 <div class="card h-100">
+                                    <img src="img/eventos/passados/thumbs.png" class="card-img-top w-50 mx-auto" alt="" title="">
+                                    <div class="card-body">
+                                       <a href="#" class="card-link">X Encontro do GBPD - Foz do Iguaçú, PR - 1993</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-3">
+                                 <div class="card h-100">
+                                    <img src="img/eventos/passados/thumbs.png" class="card-img-top w-50 mx-auto" alt="" title="">
+                                    <div class="card-body">
+                                       <a href="#" class="card-link">IX Encontro do GBPD - Belém, PA - 1991</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-3">
+                                 <div class="card h-100">
+                                    <img src="img/eventos/passados/thumbs.png" class="card-img-top w-50 mx-auto" alt="" title="">
+                                    <div class="card-body">
+                                       <a href="#" class="card-link">VIII Encontro do GBPD - Canela, RS - 1989</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <hr>
+                           <div class="row">
+                              <div class="col-sm-3">
+                                 <div class="card h-100">
+                                    <img src="img/eventos/passados/thumbs.png" class="card-img-top w-50 mx-auto" alt="" title="">
+                                    <div class="card-body">
+                                       <a href="#" class="card-link">VII Encontro do GBPD - Salvador, BA - 1987</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-3">
+                                 <div class="card h-100">
+                                    <img src="img/eventos/passados/thumbs.png" class="card-img-top w-50 mx-auto" alt="" title="">
+                                    <div class="card-body">
+                                       <a href="#" class="card-link">VI Encontro do GBPD - Recife, PE- 1985</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-3">
+                                 <div class="card h-100">
+                                    <img src="img/eventos/passados/thumbs.png" class="card-img-top w-50 mx-auto" alt="" title="">
+                                    <div class="card-body">
+                                       <a href="#" class="card-link">V Encontro do GBPD - Vitória, ES - 1983</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-3">
+                                 <div class="card h-100">
+                                    <img src="img/eventos/passados/thumbs.png" class="card-img-top w-50 mx-auto" alt="" title="">
+                                    <div class="card-body">
+                                       <a href="#" class="card-link">IV Encontro do GBPD - Pelotas, RS - 1981</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <hr>
+                           <div class="row">
+                              <div class="col-sm-3">
+                                 <div class="card h-100">
+                                    <img src="img/eventos/passados/thumbs.png" class="card-img-top w-50 mx-auto" alt="" title="">
+                                    <div class="card-body">
+                                       <a href="#" class="card-link">III Encontro do GBPD - Baurú, SP - 1979</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-3">
+                                 <div class="card h-100">
+                                    <img src="img/eventos/passados/thumbs.png" class="card-img-top w-50 mx-auto" alt="" title="">
+                                    <div class="card-body">
+                                       <a href="#" class="card-link">II Encontro do GBPD - Curitiba, PR- 1977</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-3">
+                                 <div class="card h-100">
+                                    <img src="img/eventos/passados/thumbs.png" class="card-img-top w-50 mx-auto" alt="" title="">
+                                    <div class="card-body">
+                                       <a href="#" class="card-link">I Encontro do GBPD - Salvador, BA - 1975</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
                         </div>
                      </div>
                   </div>
