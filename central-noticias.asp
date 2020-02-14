@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="no-touch">
+<html lang="pt-br">
 
 <head>
    <meta charset="UTF-8">
@@ -29,8 +29,10 @@
          <div class="row justify-content-center">
             <div class="col col-sm-8">
                <div class="card">
+                  <div class="card-header">
+                     <h4>Notícias</h4>
+                  </div>
                   <div class="card-body">
-                     <h2>Notícias</h2>
                      <div class="feed-news-group">
                         <ul>
                            <li>
