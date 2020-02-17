@@ -141,7 +141,7 @@
 @media (max-width: 768px) {}
 @media (max-width: 576px) {
    .form-container {
-      .form-popup-login {
+      .form-popup-register, .form-popup-login {
          right: 1rem;
       }
    }

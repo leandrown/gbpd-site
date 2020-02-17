@@ -453,7 +453,7 @@
   }
 }
 @media (max-width: 576px) {
-  .form-container .form-popup-login {
+  .form-container .form-popup-register, .form-container .form-popup-login {
     right: 1rem;
   }
 }
