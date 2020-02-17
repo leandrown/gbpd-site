@@ -16,7 +16,7 @@
                      Agradecemos à Dental Press e a todos que participaram do nosso evento apresentando seus trabalhos!
                   </p>
                   <div class="text-center">
-                     <img src="../img/noticias/gbpd-rio-2019.jpg" alt="Os Anais do Congresso GBPD RIO 2019 já estão publicados!">
+                     <img src="img/noticias/gbpd-rio-2019.jpg" class="img-fluid" alt="Os Anais do Congresso GBPD RIO 2019 já estão publicados!">
                   </div>
                </div>
             </div>

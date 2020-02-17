@@ -19,7 +19,7 @@
                   <img src="img/notas/n-gbpd-rio-anais-2019.jpg" alt="Anais do Congresso GBPD RIO 2019">
                   <p class="card-text">Os Anais do Congresso GBPD RIO 2019 já estão publicados!</p>
                </div>
-               <a href="#">Saiba mais<i class="fas fa-arrow-circle-right"></i></a>
+               <a href="central-noticias.asp">Saiba mais<i class="fas fa-arrow-circle-right"></i></a>
             </div>
          </div>
          <div class="">
@@ -28,7 +28,7 @@
                   <img src="img/notas/n-cro-rj.jpeg" alt="Projeto Unindo Forças">
                   <p class="card-text">GBPD junto ao CRO RJ no Projeto Unindo Forças na Odontologia Fluminense</p>
                </div>
-               <a href="#">Saiba mais<i class="fas fa-arrow-circle-right"></i></a>
+               <a href="central-noticias.asp">Saiba mais<i class="fas fa-arrow-circle-right"></i></a>
             </div>
          </div>
          <div class="">
@@ -37,7 +37,7 @@
                   <img src="img/notas/n-encontro-gbpd-rio-2019.png" alt="Encontro GBPD RIO 2019">
                   <p class="card-text">O 23º encontro do GBPD no Rio foi um sucesso!</p>
                </div>
-               <a href="#">Saiba mais<i class="fas fa-arrow-circle-right"></i></a>
+               <a href="central-noticias.asp">Saiba mais<i class="fas fa-arrow-circle-right"></i></a>
             </div>
          </div>
          <div class="">
@@ -46,7 +46,7 @@
                   <img src="img/notas/n-estetica.jpeg" alt="Assinatura online da Revista Estética">
                   <p class="card-text">Assinatura online da Revista Estética</p>
                </div>
-               <a href="#">Saiba mais<i class="fas fa-arrow-circle-right"></i></a>
+               <a href="central-noticias.asp">Saiba mais<i class="fas fa-arrow-circle-right"></i></a>
             </div>
          </div>
       </div>

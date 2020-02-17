@@ -29,10 +29,10 @@
       <!--#include file="footer.asp"-->
    </footer>
 
-   <script src="../js/gbpd.js"></script>
+   <script src="js/gbpd.js"></script>
    <!-- jQuery and Bootstrap 4 -->
    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-   <script src="../js/bootstrap.bundle.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
