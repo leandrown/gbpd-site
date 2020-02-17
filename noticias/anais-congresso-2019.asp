@@ -4,8 +4,11 @@
       <div class="row justify-content-center">
          <div class="col col-sm-8">
             <div class="card">
+               <div class="card-header">
+                  <h4>Notícias</h4>
+               </div>
                <div class="card-body">
-                  <h3 class="card-title">Os Anais do Congresso GBPD RIO 2019 já estão publicados!</h3>
+                  <h4 class="card-title">Os Anais do Congresso GBPD RIO 2019 já estão publicados!</h4>
                   <span><small class="card-subtitle mb-2 text-muted font-italic">Publicado em 12/02/2020</small></span>
                   <p class="card-text">
                      Através da nossa parceria com a Editora Dental Press, a publicação consta de um Suplemento online da Revista Estética (JCDR).<br>

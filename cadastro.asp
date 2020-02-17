@@ -28,10 +28,12 @@
          <form action="#" method="POST">
             <div class="row justify-content-center">
                <div class="col col-sm-10">
-                  <h1>Cadastro</h1>
                   <div class="card">
+                     <div class="card-header">
+                        <h4>Cadastro</h4>
+                     </div>
                      <div class="card-body">
-                        <h4 class="card-title">Dados Pessoais</h4>
+                        <h5 class="card-title">Dados Pessoais</h5>
                         <div class="form-row">
                            <div class="col-md-12 mb-3">
                               <label for="nome">Nome:</label>
@@ -145,7 +147,7 @@
                            </div>
                         </div>
                         <hr>
-                        <h4 class="card-title">Endereço Residencial</h4>
+                        <h5 class="card-title">Endereço Residencial</h5>
                         <div class="form-row">
                            <div class="col-sm-12 mb-3">
                               <label for="enderecoRes">Endereço:</label>
@@ -221,7 +223,7 @@
                         </div>
 
                         <hr>
-                        <h4 class="card-title">Endereço Comercial</h4>
+                        <h5 class="card-title">Endereço Comercial</h5>
                         <div class="form-row">
                            <div class="col-sm-12 mb-3">
                               <label for="enderecoCom">Endereço:</label>
